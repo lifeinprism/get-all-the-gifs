@@ -1,0 +1,94 @@
+h1 {
+	font-family: 'Bad Script';
+	color: #ffffff;
+	vertical-align: middle;
+	display: table-cell;
+	font-size: 40px;
+}
+
+button {
+	display:block;
+	width: 20%;
+	margin: 0 auto;
+	position: relative;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	border-radius: 2px;
+	background-color: #24b2d6;
+	margin-top: 20px;
+	padding: 10px 0px 10px 0px;
+}
+
+body, html {
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+
+hr { 
+    display: block;
+    width: 75%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-top: 1px solid #ff6666;
+}
+
+#titleBlock {
+  height: 150px;
+	width: 100%;
+	text-align: center;
+	display: table; 
+	background-color: #ff6666;
+}
+
+#quoteDiv {
+  position: relative;
+  top: 25%;
+  transform: translateY(-50%);
+	padding: 40px 0px 40px 0px;	
+	width: 500px;
+	height: 300px;
+	margin: auto;
+}
+
+#quoteSpace {
+  padding-bottom: 30px;
+	font-family: Monospace;
+	font-size: 22px;
+}
+
+#authorSpace {
+  text-align: right;
+  padding: 10px 20px 0px 0px;
+  font-size: 25px;
+  font-family: 'Seaweed Script';
+}
+footer {
+	width: 750px;
+	padding-top: 70px;
+	margin: 0 auto;
+
+}
+.floating-box {
+  display: table-cell;
+  vertical-align: middle;
+  width: 250px;
+  height: 60px;
+  margin: 10px;
+  text-align: center;
+  font-family: Gurajada;
+  font-size: 33px;
+}
+
+.floating-box a {
+	text-decoration: none;
+	color: #ff6666;
+}
+
+
