@@ -1,27 +1,7 @@
-h1 {
-	font-family: 'Bad Script';
-	color: #ffffff;
-	vertical-align: middle;
-	display: table-cell;
-	font-size: 40px;
-}
-
 body, html {
-	background-color: #ffffff;
+	background-color: #333;
 	margin: 0;
 	padding: 0;
-}
-
-hr { 
-    display: block;
-    width: 75%;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-    border-top: 1px solid #ff6666;
 }
 
 #titleBlock {
@@ -29,7 +9,7 @@ hr {
 	width: 100%;
 	text-align: center;
 	display: table; 
-	background-color: #10e874;
+	background-color: #4032c1;
 }
 
 #gif-displayer {
@@ -54,7 +34,7 @@ footer {
 	width: 100%;
 
 	padding-top: 20px;
-	background-color: blue;
+	background-color: #4032c1;
 
 }
 
@@ -102,7 +82,6 @@ input {
 
 button {
 	display:block;
-
 	margin: 0 auto;
 	position: relative;
 	font-family: Lobster;
@@ -111,7 +90,23 @@ button {
 	border: none;
 	border-radius: 2px;
 	background-color: #24b2d6;
-	margin-top: 30px;
-	padding: 20px 50px 20px 50px;
+	margin: 20px 0px 10px 0px;
+	padding: 10px 50px 10px 50px;
+}
+
+h1 {
+	font-family: Abel;
+	color: #ffffff;
+  margin-top: 20px;
+	font-size: 60px;
+	text-align: center;
+}
+
+h2 {
+	font-family: Abel;
+	color: #ff6666;
+  margin-top: -40px;
+	font-size: 40px;
+	text-align: center;
 }
 
