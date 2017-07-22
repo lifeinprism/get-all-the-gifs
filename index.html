@@ -2,8 +2,8 @@
   <head>
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="src/gipher.js"></script>
-    <!--<link rel="stylesheet" type="text/css" href="lib/css/main.css">  -->
-    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Seaweed+Script|Gurajada" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="lib/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Seaweed+Script|Gurajada|Lobster" rel="stylesheet">
     <title>Get All The Gifs</title>
   </head>
   <body>
@@ -12,8 +12,14 @@
     </div>
     <div id="gif-displayer">
     </div>
-    <div>
-      <button id="serve-gif">Next Gif!</button>
+    <div id = "entire-form">
+      <form>
+        <div id="input-container"><input id="search-string" type="text" placeholder="Enter your search terms"></div>
+        <div id="btn-container">
+          <div class="btn-inner"><button id="search-gif" onclick="return getData()">Search!</button></div>
+          <div class="btn-inner"><button id="serve-gif" onclick="return getData()">Random!</button></div>
+        </div>
+      </form>
     </div>
     <div>
       <footer>
