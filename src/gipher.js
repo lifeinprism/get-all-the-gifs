@@ -25,11 +25,14 @@ window.onload = function() {
 
     //takes parsed JSON, the url within an img tag
     gifJSON.done((data) => { 
-    	if (searchData) {
+    	if (searchData && data.data.length) {
     		//with the current settings, 15 image urls will be pulled into an array
     		//this randomizes which image will be displayed based on the length of the image array
+    		//handles errors, by serving a random page
     		var randomizer = Math.floor(Math.random() * data.data.length);
     	  document.getElementById("gif-displayer").innerHTML = '<img src="' + data.data[randomizer].images.original.url + '">';
+      } else if (searchData && (!data.data.length)) {
+        imgGrab();
       } else {
     	  document.getElementById("gif-displayer").innerHTML = '<img src="' + data.data.image_url + '">'; 
       }
